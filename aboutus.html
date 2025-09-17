@@ -88,29 +88,42 @@
 
   <!-- CTA -->
   <section class="bg-gradient-to-r from-[var(--color-golden-yellow)] to-[var(--color-lightest)] text-[var(--color-deep-blue)]">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold mb-4">Our five core services create a complete talent management cycle through integrated competency development:</h2>
-          <ul class="list-disc pl-6 space-y-2 text-left">
-            <div class="p-8 rounded-xl shadow-lef service-card bg-[var(--color-lightest)]">
-            <li class="text-2xl font-bold">Discover</li>
-            <p>We help organizations identify and understand talent through Bilotus Integrated Talent Assessment (comprehensive assessment of individual potential and competencies) and Bilotus Talent Search (identification and recruitment of exceptional talent aligned with organizational needs).</p>
-            </div>
-            <div class="p-8 rounded-xl shadow-lef service-card bg-[var(--color-lightest)]">
-            <li class="text-2xl font-bold">Develop</li>
-            <p>We enhance capabilities and strengthen teams through Bilotus Talent Academy (structured development programs with blended learning delivery) and Bilotus Talent Expedition (experiential learning through outdoor activities and team challenges).</p>
-            </div>
-            <div class="p-8 rounded-xl shadow-lef service-card bg-[var(--color-lightest)]">
-            <li class="text-2xl font-bold">Optimize</li>
-            <p>We optimize talent utilization and organizational effectiveness through Bilotus Strategic Advisory (expert guidance on human capital strategy and organizational transformation).</p>
-            </div>
-            </ul>
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-4 text-center">
+      Our five core services create a complete talent management cycle through integrated competency development:
+    </h2>
+
+    <!-- Gunakan flex-col di mobile, flex-row di desktop -->
+    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
+      
+      <!-- Five core -->
+      <ul class="flex-1 list-disc pl-6 space-y-2 text-left">
+        <div class="p-8 rounded-xl shadow-lef service-card bg-[var(--color-lightest)]">
+          <li class="text-2xl font-bold">Discover</li>
+          <p>We help organizations identify and understand talent...</p>
+        </div>
+        <div class="p-8 rounded-xl shadow-lef service-card bg-[var(--color-lightest)]">
+          <li class="text-2xl font-bold">Develop</li>
+          <p>We enhance capabilities and strengthen teams...</p>
+        </div>
+        <div class="p-8 rounded-xl shadow-lef service-card bg-[var(--color-lightest)]">
+          <li class="text-2xl font-bold">Optimize</li>
+          <p>We optimize talent utilization and organizational effectiveness...</p>
+        </div>
+      </ul>
+
+      <!-- Tombol -->
+      <div class="flex justify-center md:justify-start md:items-start">
+        <a href="services.html" 
+           class="btn-gradient inline-flex items-center px-6 py-3 rounded-xl font-semibold">
+          Lihat Layanan Kami
+          <i class="fas fa-arrow-right ml-2"></i>
+        </a>
       </div>
-      <a href="index.html#services" class="btn-gradient inline-flex items-center">
-        Lihat Layanan Kami
-        <i class="fas fa-arrow-right ml-2"></i>
-      </a>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- Footer -->
   <footer class="py-12 bg-[var(--color-deep-blue)] text-center">
